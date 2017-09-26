@@ -1,0 +1,74 @@
+body{
+	padding: 0 20px;
+}
+
+#messageWall{
+	height: 300px;
+	overflow: auto;
+}
+
+#fileWall{
+	height: 200px;
+	overflow: auto;
+}
+
+.imagePre{
+    width: 100%;
+}
+
+.btn-sample{
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	box-shadow: 5px 5px 5px #aaa;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+	text-shadow: 0 0 1px #fff;
+	background-color: #555;
+	text-align: center;
+	line-height: 100px;
+	margin-right: 50px;
+}
+
+.btn {
+	background-color: #FFF; 
+}
+
+.box {
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	width: 500px;
+	height: 500px;
+	background-color: #0000FF;
+	-webkit-transition:width 2s, height 2s ease-in, background-color 2s, -webkit-transform 2s;
+	transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+.box:hover {
+	background-color: #FFCCCC;
+	width: 500px;
+	height: 500px;
+	-webkit-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+
+.panel {
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	width: 500px;
+	height: 500px;
+	background-color: #FFF;
+	-webkit-transition:width 2s, height 2s ease-in, background-color 2s, -webkit-transform 2s;
+	transition:width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.panel:hover {
+	background-color: #CCC;
+	width: 500px;
+	height: 500px;
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+
