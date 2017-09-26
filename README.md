@@ -1,1 +1,1 @@
-# Data-Lineage-Parser-for-Impala
+# Lineage-Parser
